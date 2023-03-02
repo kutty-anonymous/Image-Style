@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.card{
+    width: 150px;
+    height: 200px;
+    background: url(image.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    transform: 
+        rotate(10deg)
+        skew(-10deg,-5deg);
+    transition:
+        translate 0.25s,
+        box-shadow 0.25s;
+    margin:10% 50%;
+}
+.card:hover{
+    translate :0 -30px;
+    box-shadow: 5px 3px rgb(183, 225, 241),
+                10px 8px rgb(114, 199, 233),
+                15px 13px rgb(1, 183, 255);
+}
